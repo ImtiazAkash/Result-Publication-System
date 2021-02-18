@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="Add_Teacher" prefHeight="650.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Admin_Add_Teacher">
+   <children>
+      <Label fx:id="adding_teacher_panel" alignment="CENTER" layoutX="279.0" layoutY="35.0" prefHeight="26.0" prefWidth="346.0" text="ADDING TEACHER">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txt_teacher_name" layoutX="252.0" layoutY="88.0" prefHeight="35.0" prefWidth="200.0" promptText="Teacher's Name">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></TextField>
+      <TextField fx:id="txt_teacher_id" layoutX="484.0" layoutY="88.0" prefHeight="35.0" prefWidth="200.0" promptText="Teacher's ID">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></TextField>
+      <TextField fx:id="txt_email" layoutX="250.0" layoutY="139.0" prefHeight="35.0" prefWidth="434.0" promptText="Email">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></TextField>
+      <TextField fx:id="txt_password" layoutX="248.0" layoutY="192.0" prefHeight="35.0" prefWidth="434.0" promptText="Password">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></TextField>
+      <TextField fx:id="txt_department" layoutX="252.0" layoutY="248.0" prefHeight="35.0" prefWidth="200.0" promptText="Department">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txt_designation" layoutX="484.0" layoutY="248.0" prefHeight="35.0" prefWidth="200.0" promptText="Designation">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txt_contact" layoutX="252.0" layoutY="313.0" prefHeight="35.0" prefWidth="200.0" promptText="Contact No.">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txt_address" layoutX="484.0" layoutY="313.0" prefHeight="35.0" prefWidth="200.0" promptText="Address" />
+      <TextField fx:id="txt_gender" layoutX="385.0" layoutY="388.0" prefHeight="35.0" prefWidth="161.0" promptText="Gender" />
+      <Button fx:id="adding_teacher_btn" layoutX="387.0" layoutY="458.0" mnemonicParsing="false" onAction="#add_btn" prefHeight="35.0" prefWidth="161.0" text="Add" />
+      <Button fx:id="back_from_tadd" layoutX="385.0" layoutY="522.0" mnemonicParsing="false" onAction="#back_from_add_teacher" prefHeight="35.0" prefWidth="161.0" text="Back" />
+   </children>
+</AnchorPane>

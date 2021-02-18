@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="search_student" prefHeight="650.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Admin_Search_Student">
+   <children>
+      <Label fx:id="student_searching_lvl" alignment="CENTER" layoutX="326.0" layoutY="25.0" prefHeight="35.0" prefWidth="250.0" style="-fx-background-color: gray;" text="Searching Student" AnchorPane.rightAnchor="274.0">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="std_search_txt" layoutX="149.0" layoutY="94.0" prefHeight="35.0" prefWidth="270.0" promptText="Enter Student ID" />
+      <Button fx:id="std_search_btn" layoutX="474.0" layoutY="94.0" mnemonicParsing="false" onAction="#std_search_btn" prefHeight="35.0" prefWidth="121.0" text="Search" />
+      <Label fx:id="std_search_name_lvl" layoutX="149.0" layoutY="166.0" prefHeight="27.0" prefWidth="250.0" style="-fx-text-fill: white;" text="Student Name">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="std_search_name" layoutX="566.0" layoutY="166.0" prefHeight="27.0" prefWidth="208.0" />
+      <Label fx:id="std_search_intake_lvl" layoutX="149.0" layoutY="211.0" prefHeight="27.0" prefWidth="250.0" style="-fx-text-fill: white;" text="Intake">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="std_search_intk" layoutX="566.0" layoutY="211.0" prefHeight="27.0" prefWidth="208.0" />
+      <Label fx:id="std_search_section_lvl" layoutX="149.0" layoutY="254.0" prefHeight="27.0" prefWidth="250.0" style="-fx-text-fill: white;" text="Section">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="std_search_sec" layoutX="566.0" layoutY="254.0" prefHeight="27.0" prefWidth="208.0" />
+      <Label fx:id="std_search_fname_lvl" layoutX="149.0" layoutY="344.0" prefHeight="27.0" prefWidth="250.0" style="-fx-text-fill: white;" text="Father's Name">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="std_search_fname" layoutX="566.0" layoutY="344.0" prefHeight="27.0" prefWidth="208.0" />
+      <Label fx:id="std_search_mname_lvl" layoutX="149.0" layoutY="385.0" prefHeight="27.0" prefWidth="250.0" style="-fx-text-fill: white;" text="Mother's Name">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="std_search_mname" layoutX="566.0" layoutY="385.0" prefHeight="27.0" prefWidth="208.0" />
+      <Label fx:id="std_search_dob_lvl" layoutX="149.0" layoutY="425.0" prefHeight="27.0" prefWidth="250.0" style="-fx-text-fill: white;" text="Date of Birth">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="std_search_dob" layoutX="566.0" layoutY="425.0" prefHeight="27.0" prefWidth="208.0" />
+      <Label fx:id="std_search_cont_lvl" layoutX="149.0" layoutY="467.0" prefHeight="27.0" prefWidth="250.0" style="-fx-text-fill: white;" text="Contact No">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="std_search_cont" layoutX="566.0" layoutY="467.0" prefHeight="27.0" prefWidth="208.0" />
+      <Label fx:id="std_search_address_lvl" layoutX="149.0" layoutY="509.0" prefHeight="27.0" prefWidth="250.0" style="-fx-text-fill: white;" text="Address">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="std_search_address" layoutX="566.0" layoutY="509.0" prefHeight="27.0" prefWidth="208.0" />
+      <Label fx:id="std_search_blood_lvl" layoutX="149.0" layoutY="549.0" prefHeight="27.0" prefWidth="250.0" style="-fx-text-fill: white;" text="Blood Group">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="std_search_blood" layoutX="566.0" layoutY="549.0" prefHeight="27.0" prefWidth="208.0" />
+      <Label fx:id="std_search_email_lvl" layoutX="149.0" layoutY="590.0" prefHeight="27.0" prefWidth="250.0" style="-fx-text-fill: white;" text="Email">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="std_search_email" layoutX="566.0" layoutY="590.0" prefHeight="27.0" prefWidth="208.0" />
+      <Label fx:id="std_search_dept_lvl" layoutX="149.0" layoutY="297.0" prefHeight="27.0" prefWidth="250.0" style="-fx-text-fill: white;" text="Department">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="std_search_dept" layoutX="566.0" layoutY="297.0" prefHeight="27.0" prefWidth="208.0" />
+      <Button fx:id="back_from_sstd_btn" layoutX="644.0" layoutY="94.0" mnemonicParsing="false" onAction="#back_from_search_student" prefHeight="35.0" prefWidth="121.0" text="Back" />
+   </children>
+</AnchorPane>

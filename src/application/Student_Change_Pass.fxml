@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="std_changing_pass" prefHeight="650.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.studentController">
+   <children>
+      <Label alignment="CENTER" layoutX="292.0" layoutY="48.0" prefHeight="32.0" prefWidth="266.0" style="-fx-background-color: gray;" text="Changing Password">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="std_id_pass" layoutX="278.0" layoutY="148.0" prefHeight="42.0" prefWidth="295.0" promptText="Enter Your ID" />
+      <TextField fx:id="std_old_pass" layoutX="278.0" layoutY="229.0" prefHeight="42.0" prefWidth="295.0" promptText="Enter Your Old Pass" />
+      <TextField fx:id="std_new_pass" layoutX="278.0" layoutY="304.0" prefHeight="42.0" prefWidth="295.0" promptText="Enter Your New Pass" />
+      <Button fx:id="std_change_pass_btn" layoutX="425.0" layoutY="407.0" mnemonicParsing="false" onAction="#std_changepass_btn" prefHeight="35.0" prefWidth="143.0" text="Change Password" />
+      <Button fx:id="back_tchange_pass_btn" layoutX="614.0" layoutY="407.0" mnemonicParsing="false" onAction="#back_from_student_changepass" prefHeight="35.0" prefWidth="126.0" text="Back" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,185 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+/* CSS for front page */
+#TopTittle {
+	-fx-background-color: gray;
+}
+
+.root {
+	-fx-background-color: navy;
+}
+#insidepane {
+	-fx-border-color: white;
+}
+
+#SIAbutton {
+	-fx-underline: true;
+	-fx-text-fill: white;
+}
+
+#Admin {
+	-fx-background-color: #CB4335 ;
+	-fx-text-fill: white;
+}
+#teacher {
+	-fx-background-color: #CB4335 ;
+	-fx-text-fill: white;
+}
+#student {
+	-fx-background-color: #CB4335 ;
+	-fx-text-fill: white;
+}
+
+/* CSS for each login page top level */
+#Adminlvl {
+	-fx-background-color: gray;
+}
+#Teacherlvl {
+	-fx-background-color: gray;
+}
+#Studentlvl {
+	-fx-background-color: gray;
+}
+
+/* CSS for Student panel */
+#studentpanel_level {
+	-fx-text-fill: White;
+	-fx-underline: true;
+}
+#StudentPanel_insidepane {
+	-fx-border-color: white;
+}
+#search_result {
+	-fx-background-color: #CB4335 ;
+	-fx-text-fill: white;
+} 
+#print_result {
+	-fx-background-color: #CB4335 ;
+	-fx-text-fill: white;
+}
+
+/* CSS for Teacher panel */
+#teacherpanel_level {
+	-fx-text-fill: White;
+	-fx-underline: true;
+}
+#Teacherpanel_insidepane {
+	-fx-border-color: white;
+}
+#add_result {
+	-fx-background-color: #CB4335 ;
+	-fx-text-fill: white;
+} 
+#modify_result {
+	-fx-background-color: #CB4335 ;
+	-fx-text-fill: white;
+}
+
+/* CSS for admin panel */
+#AdminPanel_level {
+	-fx-text-fill: white;
+	-fx-underline: true;
+}
+#Admin_panel_pane {
+	-fx-border-color: white;
+}
+#teachers_Control_panel_btn {
+	-fx-background-color: #CB4335;
+	-fx-text-fill: white;
+}
+#student_Control_panel_btn {
+	-fx-background-color: #CB4335;
+	-fx-text-fill: white;
+}
+/* all admin option for teachers */
+#add_teacher_btn {
+	-fx-background-color: #CB4335;
+	-fx-text-fill: white;
+}
+#modify_teacher_btn {
+	-fx-background-color: #CB4335;
+	-fx-text-fill: white;
+}
+#search_teacher_btn {
+	-fx-background-color: #CB4335;
+	-fx-text-fill: white;
+}
+#delete_teacher_btn {
+	-fx-background-color: #CB4335;
+	-fx-text-fill: white;
+}
+#adding_teacher_panel {
+	-fx-background-color: gray;
+}
+#adding_std_lvl {
+	-fx_background-color: gray;
+}
+
+/*modifying teacher panel */
+#edit_teacher_lvl {
+	-fx-background-color: gray;
+}
+#who_to_edit_lvl {
+	-fx-text-fill: white;
+}
+#designation_lvl {
+	-fx-text-fill: white;
+}
+#contact_lvl {
+	-fx-text-fill: white;
+}
+#address_lvl {
+	-fx-text-fill: white;
+}
+
+/* searching teacher */
+#teacher_searching_lvl {
+	-fx-background-color: gray;
+}
+#search_id_lvl {
+	-fx-text-fill: white;
+}
+#search_name_lvl {
+	-fx-text-fill: white;
+}
+#search_dept_lvl {
+	-fx-text-fill: white;
+}
+#search_desig_lvl {
+	-fx-text-fill: white;
+}
+#search_contact_lvl {
+	-fx-text-fill: white;
+}
+#search_gen_lvl {
+	-fx-text-fill: white;
+}
+#search_add_lvl {
+	-fx-text-fill: white;
+}
+#search_email_lvl {
+	-fx-text-fill: white;
+}
+#delete_teacher_lvl {
+	-fx-background-color: gray;
+}
+
+
+/* all admin option for students */
+#add_student_btn {
+	-fx-background-color: #CB4335;
+	-fx-text-fill: white;
+}
+#modify_student_btn {
+	-fx-background-color: #CB4335;
+	-fx-text-fill: white;
+}
+#search_student_btn {
+	-fx-background-color: #CB4335;
+	-fx-text-fill: white;
+}
+#delete_student_btn {
+	-fx-background-color: #CB4335;
+	-fx-text-fill: white;
+}
+

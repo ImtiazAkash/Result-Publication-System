@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="delete_Teacher" prefHeight="650.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Admin_delete_teacher">
+   <children>
+      <Label fx:id="delete_teacher_lvl" alignment="CENTER" layoutX="292.0" layoutY="44.0" prefHeight="43.0" prefWidth="267.0" text="Deleting Teacher">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="delete_txt" layoutX="202.0" layoutY="124.0" prefHeight="43.0" prefWidth="294.0" promptText="Write Teacher ID to Delete" />
+      <Button fx:id="delete_btn" layoutX="547.0" layoutY="123.0" mnemonicParsing="false" onAction="#delete_btn" prefHeight="43.0" prefWidth="140.0" text="Delete">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font>
+      </Button>
+      <Button fx:id="back_from_tdelte_btn" layoutX="550.0" layoutY="211.0" mnemonicParsing="false" onAction="#back_from_delete_teacher" prefHeight="43.0" prefWidth="140.0" text="Back">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

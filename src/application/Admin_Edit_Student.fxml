@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="edit_student" prefHeight="650.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Admin_Edit_Student">
+   <children>
+      <Label fx:id="editing_std_lvl" alignment="CENTER" layoutX="240.0" layoutY="35.0" prefHeight="36.0" prefWidth="327.0" style="-fx-background-color: gray;" text="Modifying Student">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="edit_student_id" layoutX="533.0" layoutY="99.0" prefHeight="36.0" prefWidth="241.0" promptText="Student ID" />
+      <TextField fx:id="edit_section" layoutX="111.0" layoutY="172.0" prefHeight="36.0" prefWidth="293.0" promptText="Section" />
+      <TextField fx:id="edit_std_contact" layoutX="481.0" layoutY="172.0" prefHeight="36.0" prefWidth="293.0" promptText="Contact No." />
+      <TextField fx:id="edit_std_address" layoutX="111.0" layoutY="241.0" prefHeight="36.0" prefWidth="293.0" promptText="Address" />
+      <TextField fx:id="edit_std_blood" layoutX="481.0" layoutY="241.0" prefHeight="36.0" prefWidth="293.0" promptText="Blood Group" />
+      <TextField fx:id="edit_std_email" layoutX="111.0" layoutY="307.0" prefHeight="36.0" prefWidth="665.0" promptText="Email" />
+      <Button fx:id="std_confrim_change_btn" layoutX="346.0" layoutY="396.0" mnemonicParsing="false" onAction="#confirm_change_btn" prefHeight="25.0" prefWidth="114.0" text="Confirm Change" />
+      <Label layoutX="138.0" layoutY="99.0" prefHeight="36.0" prefWidth="241.0" style="-fx-text-fill: white;" text="Who to Modify">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="back_from_sedit_btn" layoutX="476.0" layoutY="396.0" mnemonicParsing="false" onAction="#back_from_edit_student" prefHeight="25.0" prefWidth="114.0" text="Back" />
+   </children>
+</AnchorPane>

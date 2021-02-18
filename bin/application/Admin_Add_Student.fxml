@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="Add_Student" prefHeight="650.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Admin_Add_Student">
+   <children>
+      <Label fx:id="adding_std_lvl" alignment="CENTER" layoutX="262.0" layoutY="31.0" prefHeight="36.0" prefWidth="327.0" style="-fx-background-color: gray;" text="Adding Student">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txt_student_id" layoutX="139.0" layoutY="108.0" prefHeight="36.0" prefWidth="273.0" promptText="Student ID" />
+      <TextField fx:id="txt_student_name" layoutX="480.0" layoutY="108.0" prefHeight="36.0" prefWidth="273.0" promptText="Student Name" />
+      <TextField fx:id="txt_intake" layoutX="141.0" layoutY="177.0" prefHeight="36.0" prefWidth="148.0" promptText="Intake" />
+      <TextField fx:id="txt_section" layoutX="364.0" layoutY="177.0" prefHeight="36.0" prefWidth="148.0" promptText="Section" />
+      <TextField fx:id="txt_std_dept" layoutX="555.0" layoutY="177.0" prefHeight="36.0" prefWidth="198.0" promptText="Department" />
+      <TextField fx:id="txt_father_name" layoutX="139.0" layoutY="249.0" prefHeight="36.0" prefWidth="258.0" promptText="Father's Name" />
+      <TextField fx:id="txt_mother_name" layoutX="494.0" layoutY="249.0" prefHeight="36.0" prefWidth="258.0" promptText="Mother's Name" />
+      <TextField fx:id="txt_std_dob" layoutX="141.0" layoutY="315.0" prefHeight="36.0" prefWidth="258.0" promptText="Date of Birth: yyyy-mm-dd" />
+      <TextField fx:id="txt_std_contact" layoutX="495.0" layoutY="307.0" prefHeight="36.0" prefWidth="258.0" promptText="Contact No." />
+      <TextField fx:id="txt_std_address" layoutX="141.0" layoutY="387.0" prefHeight="36.0" prefWidth="258.0" promptText="Address" />
+      <TextField fx:id="txt_std_blood" layoutX="495.0" layoutY="387.0" prefHeight="36.0" prefWidth="258.0" promptText="Blood Group" />
+      <TextField fx:id="txt_std_email" layoutX="141.0" layoutY="456.0" prefHeight="36.0" prefWidth="258.0" promptText="Email" />
+      <TextField fx:id="txt_std_pass" layoutX="494.0" layoutY="456.0" prefHeight="36.0" prefWidth="258.0" promptText="Password" />
+      <Button fx:id="std_add_btn" layoutX="412.0" layoutY="539.0" mnemonicParsing="false" onAction="#add_std_btn" prefHeight="25.0" prefWidth="114.0" text="Add" />
+      <Button fx:id="back_from_astd_btn" layoutX="638.0" layoutY="539.0" mnemonicParsing="false" onAction="#back_from_add_student" prefHeight="25.0" prefWidth="114.0" text="Back" />
+   </children>
+</AnchorPane>

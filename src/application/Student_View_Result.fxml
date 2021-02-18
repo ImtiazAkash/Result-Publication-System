@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="show_result" prefHeight="650.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.tableview_controller">
+   <children>
+      <TableView fx:id="table" layoutX="3.0" layoutY="205.0" prefHeight="650.0" prefWidth="733.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columns>
+          <TableColumn fx:id="Course_code" prefWidth="89.0" text="Course Code" />
+          <TableColumn fx:id="course_title" prefWidth="190.0" text="Course Title" />
+            <TableColumn fx:id="credit" prefWidth="77.0" text="Credit" />
+            <TableColumn fx:id="intk_sec" prefWidth="92.0" text="Intake-Sec" />
+            <TableColumn fx:id="type" prefWidth="68.0" text="Type" />
+            <TableColumn fx:id="marks_final" prefWidth="85.0" text="Final" />
+            <TableColumn fx:id="marks_mid" prefWidth="78.0" text="Mid" />
+            <TableColumn fx:id="marks_thirty" prefWidth="87.0" text="Thirty" />
+            <TableColumn fx:id="marks_total" prefWidth="83.0" text="Total" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

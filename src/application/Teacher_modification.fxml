@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="teacher_modification" prefHeight="650.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AdminController">
+   <children>
+      <Button fx:id="add_teacher_btn" layoutX="325.0" layoutY="79.0" mnemonicParsing="false" onAction="#add_teacher" prefHeight="64.0" prefWidth="252.0" text="ADD TEACHER">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="modify_teacher_btn" layoutX="325.0" layoutY="174.0" mnemonicParsing="false" onAction="#modify_teacher" prefHeight="64.0" prefWidth="252.0" text="MODIFY TEACHER">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="search_teacher_btn" layoutX="325.0" layoutY="269.0" mnemonicParsing="false" onAction="#search_teacher" prefHeight="64.0" prefWidth="252.0" text="SEARCH TEACHER">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="delete_teacher_btn" layoutX="325.0" layoutY="373.0" mnemonicParsing="false" onAction="#delete_teacher" prefHeight="64.0" prefWidth="252.0" text="DELETE TEACHER">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="teachermod_back" layoutX="629.0" layoutY="502.0" mnemonicParsing="false" onAction="#back_from_teacher" prefHeight="35.0" prefWidth="132.0" text="Back" />
+      <Button fx:id="logout_from_admin_teacher" layoutX="416.0" layoutY="502.0" mnemonicParsing="false" onAction="#logout_from_teacher" prefHeight="35.0" prefWidth="144.0" text="Logout" />
+   </children>
+</AnchorPane>
